@@ -1,18 +1,41 @@
-## Getting Started
+# Proyecto Car-REnt - Sistema de Arriendo de Vehículos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## IDE utilizado
 
-## Folder Structure
+Este proyecto fue desarrollado en **Visual Studio Code**, usando la extensión **Java Extension Pack** para compilar y ejecutar programas en lenguaje Java.
 
-The workspace contains two folders by default, where:
+## Estructura de carpetas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `/src` → Contiene todos los archivos `.java`:
+  - `Vehiculo.java`
+  - `Cliente.java`
+  - `Arriendo.java`
+  - `Devolucion.java`
+  - `Main.java`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- `/bin` → Carpeta donde se generarán los archivos `.class` compilados.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Consideraciones para compilar y ejecutar
 
-## Dependency Management
+1. Verificar que su entorno de desarrollo tenga **JDK 17 o superior** instalado.
+2. Todos los archivos `.java` están guardados en codificación **UTF-8**. Si ejecuta desde consola Windows, se recomienda cambiar la codificación a UTF-8:
+   bash
+   chcp 65001   
+   o asegurarse de que su terminal soporte UTF-8.
+3. Para compilar desde consola:
+    javac -d bin src/*.java
+4. Para ejecutar:
+    java -cp bin Main
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Instrucciones de prueba
+El proyecto incluye un Main.java con pruebas directas, SIN entrada por teclado, tal como exige la guía. 
+Verifica en consola los mensajes para validar que:
+    **Se crean clientes y vehículos correctamente.**
+    **Se prueban validaciones de datos.**
+    **Se realizan arriendos (válido y no válido).**
+    **Se ingresan devoluciones (válida y no válida).**
+
+Autor:  José Ríos
+        José Parra
+        Alejandro Morales
+Grupo:  N° 2
