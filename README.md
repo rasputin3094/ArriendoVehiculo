@@ -1,5 +1,8 @@
 # Proyecto Car-REnt - Sistema de Arriendo de Vehículos
 
+## UML
+Para la creación del UML se utilizo **Draw.io** una herramienta gratuita que permite graficar el diagrama de clases de la aplicación.
+
 ## IDE utilizado
 
 Este proyecto fue desarrollado en **Visual Studio Code**, usando la extensión **Java Extension Pack** para compilar y ejecutar programas en lenguaje Java.
@@ -38,4 +41,5 @@ Verifica en consola los mensajes para validar que:
 Autor:  José Ríos
         José Parra
         Alejandro Morales
+        
 Grupo:  N° 2
